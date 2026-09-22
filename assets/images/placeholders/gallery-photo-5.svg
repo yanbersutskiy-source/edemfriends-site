@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1500" viewBox="0 0 1200 1500">
+  <rect width="1200" height="1500" fill="#F8F3F1"/>
+  <rect x="90" y="90" width="1020" height="1320" rx="28" fill="none" stroke="#D8B8C2" stroke-width="4" stroke-dasharray="14 14"/>
+  <text x="600" y="720" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="44" fill="#8D7B82">Фото 5</text>
+  <text x="600" y="790" text-anchor="middle" font-family="Montserrat,Arial,sans-serif" font-size="26" fill="#A7979C">замінити фотографією замовниці</text>
+</svg>

@@ -1,0 +1,74 @@
+:root {
+  /* Brand colors — single approved set */
+  --color-bg: #FCFAF9;
+  --color-surface: #FFFFFF;
+  --color-surface-soft: #FBF2F4;
+  --color-surface-pink: #F8E8ED;
+  --color-text: #18223D;
+  --color-text-muted: #6E7180;
+  --color-pink: #D1648B;
+  --color-pink-dark: #B94D75;
+  --color-pink-soft: #E8AABC;
+  --color-border: #E9DDE1;
+  --color-track: #DED9DA;
+  --color-success: #567A5A;
+
+  /* Typography — Montserrat only */
+  --font-sans: "Montserrat", Arial, Helvetica, sans-serif;
+  --weight-light: 300;
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+
+  --fs-hero: clamp(42px, 5.3vw, 84px);
+  --fs-h1: clamp(36px, 4vw, 64px);
+  --fs-h2: clamp(28px, 2.8vw, 44px);
+  --fs-h3: clamp(22px, 2vw, 30px);
+  --fs-body-lg: 18px;
+  --fs-body: 16px;
+  --fs-small: 14px;
+  --fs-xs: 12px;
+
+  --lh-tight: 1.08;
+  --lh-heading: 1.18;
+  --lh-body: 1.62;
+
+  /* Layout */
+  --container: 1440px;
+  --container-narrow: 1180px;
+  --gutter: 32px;
+  --section-y: 84px;
+  --section-y-mobile: 52px;
+  --header-h: 72px;
+
+  /* Spacing scale */
+  --s-1: 4px;
+  --s-2: 8px;
+  --s-3: 12px;
+  --s-4: 16px;
+  --s-5: 20px;
+  --s-6: 24px;
+  --s-8: 32px;
+  --s-10: 40px;
+  --s-12: 48px;
+  --s-16: 64px;
+  --s-20: 80px;
+
+  --radius-sm: 10px;
+  --radius-md: 18px;
+  --radius-lg: 28px;
+  --radius-pill: 999px;
+  --shadow-modal: 0 30px 90px rgba(26, 18, 24, 0.24);
+  --shadow-card: 0 8px 30px rgba(45, 28, 35, 0.06);
+  --transition: 180ms ease;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --gutter: 18px;
+    --header-h: 64px;
+    --fs-body: 15px;
+    --fs-body-lg: 16px;
+  }
+}
