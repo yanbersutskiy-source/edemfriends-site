@@ -1,6 +1,6 @@
 window.EDEM_CONFIG = {
   // Підтверджені посилання
-  telegramUrl: 'https://t.me/juliapavlenkoart',
+  telegramUrl: 'https://t.me/EDEM_FRIENDS',
 
   // Додайте після отримання підтверджених URL. Порожні посилання сайт приховує.
   instagramUrl: '',
