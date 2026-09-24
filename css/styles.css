@@ -345,6 +345,7 @@ button { border: 0; color: inherit; cursor: pointer; font: inherit; }
   .product-card { grid-template-columns: 112px 1fr; gap: 14px; }
   .author-card { grid-template-columns: 1fr; }
   .author-photo { aspect-ratio: 16/10; object-position: center 23%; }
+  .author-card-julia .author-photo { object-position: center 67%; }
 }
 @media (prefers-reduced-motion: reduce) {
   html { scroll-behavior: auto; }
